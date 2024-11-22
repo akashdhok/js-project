@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="./Screenshot 2024-08-31 120129.png" type="image/x-icon">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <center>
+        <h1 style="margin-top: 20px; margin-bottom: 20px;">SIGN-UP</h1>
+    </center>
+    <hr>
+    <form id="signup">
+        <p id="errorname"></p>
+        <input type="text" id="name" placeholder="Enter your name here">
+        <p id="erroremail"></p>
+        <input type="email" id="email" placeholder="Enter your email here">
+        <p id="errorcountry"></p>
+        <input type="text" id="country" placeholder="Enter your country here">
+        <p id="errornumber"></p>
+        <input type="text" id="number" placeholder="Enter your number here">
+        <p id="errorpassword"></p>
+        <input type="password" id="password" placeholder="Enter strong password here " >
+       <button onclick="return signup()">SignIn</button>
+       <p>Already have an account <a href="./login.html" style="text-decoration: none;">Login</a></p>
+    </form>
+
+    <script src="./signup.js">
+    </script>
+</body>
+
+</html>

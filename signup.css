@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(241, 225, 203);
+    margin: 0%;
+    padding: 0;
+}
+
+#signup {
+    display: grid;
+    width: 500px;
+    height: 580px;
+    text-align: center;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    box-shadow: 4px 4px 5px gray;
+    font-size: 20px;
+    background-color: rgb(220, 235, 236);
+}
+
+#signup input {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    /* background-color: burlywood; */
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+#signup button {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    /* background-color: burlywood; */
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+@media (max-width :800px) {
+    #signup{
+        width: 300px;
+    height: 500px; 
+    overflow-x: hidden;
+    margin-top: 60px;
+    }
+    #signup input{
+        width: 250px;
+    }
+    #signup button{
+        width: 250px;
+
+    }
+}
